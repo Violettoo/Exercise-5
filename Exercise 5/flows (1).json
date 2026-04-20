@@ -1,0 +1,54 @@
+[
+    {
+        "id": "a6a9331f8a422baf",
+        "type": "mqtt in",
+        "z": "3231439e6af190b4",
+        "name": "",
+        "topic": "campus/state/door",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b87246f90ac065b0",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 470,
+        "y": 160,
+        "wires": [
+            [
+                "61dcc74a7be0e64d"
+            ]
+        ]
+    },
+    {
+        "id": "b87246f90ac065b0",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "host.docker.internal",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
